@@ -1,0 +1,17 @@
+[project]
+name = "mcp-pdf-ocr-retrieval-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "DahobachirGhada", email = "dahobachirghada@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+mcp-pdf-ocr-retrieval-pipeline = "mcp_pdf_ocr_retrieval_pipeline:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
