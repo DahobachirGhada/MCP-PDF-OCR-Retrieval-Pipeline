@@ -7,7 +7,9 @@ authors = [
     { name = "DahobachirGhada", email = "dahobachirghada@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "mcp[cli]>=2.3.0",
+]
 
 [project.scripts]
 mcp-pdf-ocr-retrieval-pipeline = "mcp_pdf_ocr_retrieval_pipeline:main"
