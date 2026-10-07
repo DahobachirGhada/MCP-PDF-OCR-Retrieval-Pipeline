@@ -1,0 +1,1 @@
+#Remove duplicates (example text that both PyMuPDF and OCR captured).

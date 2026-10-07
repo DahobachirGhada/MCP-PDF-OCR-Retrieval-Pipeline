@@ -1,0 +1,1 @@
+#classify pdfs => DIGITAL or SCANNED

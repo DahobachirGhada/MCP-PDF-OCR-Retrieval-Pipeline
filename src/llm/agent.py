@@ -1,0 +1,1 @@
+#The agent receives the query : The LLM agent sees the question and decides what it needs. If the document was never ingested, it calls the MCP tools to do it. Here it's already indexed, so it goes straight to search.

@@ -1,0 +1,1 @@
+#The search tool embeds the question and finds the closest chunks
