@@ -8,7 +8,11 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "camelot-py>=2.0.0",
+    "chromadb>=1.5.9",
     "mcp[cli]>=2.3.0",
+    "pymupdf>=1.28.2",
+    "python-doctr>=1.1.0",
 ]
 
 [project.scripts]
@@ -17,3 +21,11 @@ mcp-pdf-ocr-retrieval-pipeline = "mcp_pdf_ocr_retrieval_pipeline:main"
 [build-system]
 requires = ["uv_build>=0.12.23,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "hybrid_rag"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
