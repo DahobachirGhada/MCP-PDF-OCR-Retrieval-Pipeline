@@ -7,8 +7,11 @@ file_path = FIXTURES / "Convocation_scolaire_arabe.pdf"
 
 
 def test_classifier():
-    classifier_result = classifier(file_path)
-    if 0 in classifier_result:
-        print("PDF is image-based!")
+    labels = classifier(file_path)
+    print(labels)
+
+    assert len(labels) > 0
+    if "scanned" in labels:
+        print("PDF contains scanned pages!")
     else:
         print("PDF is text-based!")
