@@ -9,3 +9,4 @@ class Block:
     page_width: float
     page_height: float
     source: str = "pymupdf"
+    confidence: float | None = None 
